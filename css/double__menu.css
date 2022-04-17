@@ -1,0 +1,110 @@
+.menu__bouble {
+    background: url(../img/hero/menu__double.png) no-repeat 50% 50%;
+    width: 100%;
+  }
+  .menu__bouble .section__container {
+    margin: 0 auto;
+    height: 92px;
+  }
+  .menu__bouble .section__container .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+  }
+  .menu__bouble .section__container .wrapper .logo {
+    display: flex;
+    align-items: center;
+    width: 164px;
+  }
+  .menu__bouble .section__container .wrapper .logo .logo__image {
+    width: 60px;
+    height: 56px;
+    margin-right: 13px;
+  }
+  .menu__bouble .section__container .wrapper .logo .logo__title {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 24px;
+    color: #521E00;
+    text-transform: uppercase;
+  }
+  .menu__bouble .section__container .wrapper .menu__bouble {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 962px;
+  }
+  .menu__bouble .section__container .wrapper .menu__bouble .item__double .menu__double__link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+  }
+  .menu__bouble .section__container .wrapper .group__first {
+    display: flex;
+    align-items: center;
+    width: 372px;
+  }
+  .menu__bouble .section__container .wrapper .group__first .phone__link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 8px;
+  }
+  .menu__bouble .section__container .wrapper .group__first .phone__text {
+    display: flex;
+    align-items: center;
+  }
+  .menu__bouble .section__container .wrapper .group__first .phone__text .znak {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #00FF00;
+    box-shadow: 0px 0px 5px 5px rgba(146, 243, 137, 0.75);
+    margin-right: 8px;
+  }
+  .menu__bouble .section__container .wrapper .group__first .phone__text .text {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .menu__bouble .section__container .menu__bouble__two {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #FFFFFF 0%, #E2E2E2 100%);
+    box-shadow: inset 0px -2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 27.5px;
+    width: 553px;
+    padding: 11px 56px;
+    margin: 0 auto;
+  }
+  .menu__bouble .section__container .menu__bouble__two .item__double .menu__double__link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  #menu__double {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.34s linear;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  #menu__double.fixed {
+    opacity: 1;
+    pointer-events: auto;
+  }
