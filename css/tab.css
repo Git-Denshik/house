@@ -1,0 +1,27 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #4CAF50;
+    background-color: #C8E6C9;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+.tab button:hover {
+    background-color: #FFEB3B;
+}
+.tab button.active {
+    background-color: #4CAF50;
+  color: #fff;
+}
+
+
+.tabcontent {
+    display: block;
+    border-top: none;
+}

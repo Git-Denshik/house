@@ -11,9 +11,9 @@ window.onscroll = function() {
   }
 }
 
-btn.onclick = function() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth',
-  });
-}
+// btn.onclick = function() {
+//   window.scrollTo({
+//     top: 0,
+//     behavior: 'smooth',
+//   });
+// }
